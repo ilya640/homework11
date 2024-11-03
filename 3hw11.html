@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(207, 207, 207)
+        }
+        .first-block{
+            position: relative;
+            /* border: solid; */
+            width: 70%;
+           
+            overflow: hidden;
+          
+        }
+        .first-block .line{
+            margin-top: 10px;
+        }
+        .block{
+            width: 70%;
+            position: relative;
+            overflow: hidden;
+        }
+        
+     
+        img{
+            background-color: white;
+            position: relative;
+            z-index: 2;
+            border: solid 3px white;
+            float: left;
+            margin-top: 10px;
+           
+        }
+        .text-part{
+            position: relative;
+            
+            background-color: white;
+            border: solid 1px;
+            border-radius: 5px;
+            padding: 5px;
+            vertical-align: top;
+          
+            margin: 10px 0 10px 60px;
+           
+        }
+        .block img{
+          margin: 10px;
+        }
+       
+        .text{
+
+        }
+        .nickname{
+            font-weight: bold;
+        }
+        .line{
+          height: 100%;
+          position: absolute;
+            width: 4px;
+            
+            left: 25px;
+            background-color: gray;
+           
+            
+        }
+        .last-block .line{
+            height: 35px;
+        }
+       
+        .block .text-part{
+            margin-left: 160px;
+        }
+        .block img{
+            margin-left: 100px;
+        }
+       /* .block-line{
+            margin-left: -100px;
+        } */
+        .hor-line{
+            position: absolute;
+            height: 4px;
+            width: 63px;
+           
+            left: 25px;
+            top: 35px;
+            background-color: gray;
+        }
+        .triangle{
+            position: absolute;
+            top: 30px;
+            left: 87px;
+            width: 0;
+            height: 0;
+            border-width: 7.5px 0 7.5px 13.0px;
+            border-color: transparent transparent transparent gray;
+            border-style: solid;
+        }
+    </style>
+</head>
+<body>
+    <div class="first-block">
+
+        <img src="./icons8-50-48.png" alt="">
+        <div class="line"></div>
+        
+        <div class="text-part">
+            <div class="text">
+            <span class="nickname">User342335</span> спрашивает: <br><br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptates aut possimus distinctio. Omnis tempore excepturi dicta ratione dignissimos incidunt voluptatum necessitatibus cumque. Dolore in sunt incidunt, est provident iusto.
+        </div>
+        </div>
+    </div>
+    <div class="block">
+        <img src="./icons8-50-48.png" alt="">
+        <div class="line block-line"></div>
+        <div class="hor-line"></div>
+        <div class="triangle"></div>
+        <div class="text-part">
+           
+            <span class="nickname">User342335</span> спрашивает: <br><br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptates aut possimus distinctio. Omnis tempore excepturi dicta ratione dignissimos incidunt voluptatum necessitatibus cumque. Dolore in sunt incidunt, est provident iusto.
+
+        </div>
+    </div>
+
+
+
+    <div class="block">
+        <img src="./icons8-50-48.png" alt="">
+        <div class="line block-line"></div>
+        <div class="hor-line"></div>
+        <div class="triangle"></div>
+        <div class="text-part">
+            
+            <span class="nickname">User342335</span> спрашивает: <br><br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptates aut possimus distinctio. Omnis tempore excepturi dicta ratione dignissimos incidunt voluptatum necessitatibus cumque. Dolore in sunt incidunt, est provident iusto.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus fugiat voluptatem minima, unde ex vitae modi tenetur assumenda officia, excepturi quis obcaecati. Nihil, eaque! Esse, rem ad. Placeat, dolores perferendis.
+        </div>
+    </div>
+
+    <div class="block last-block">
+        <img src="./icons8-50-48.png" alt="">
+        <div class="line block-line"></div>
+        <div class="hor-line"></div>
+        <div class="triangle"></div>
+        <div class="text-part">
+            
+            <span class="nickname">User342335</span> спрашивает: <br><br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptates aut possimus distinctio. Omnis tempore excepturi dicta ratione dignissimos incidunt voluptatum necessitatibus cumque. Dolore in sunt incidunt, est provident iusto.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus fugiat voluptatem minima, unde ex vitae modi tenetur assumenda officia, excepturi quis obcaecati. Nihil, eaque! Esse, rem ad. Placeat, dolores perferendis.
+        </div>
+    </div>
+</body>
+</html>

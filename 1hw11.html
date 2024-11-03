@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            height: 180px;
+            width: 380px;
+            border: 10px solid greenyellow;
+           position: absolute;
+            bottom: 20px;
+            right: 20px;
+        z-index: 3;
+          
+           
+        }
+        .border::after{
+            content: "";
+            height: 200px;
+            width: 400px;
+            position: absolute;
+            background-color: green;
+            display: block;
+            bottom: 10px;
+            right: 10px;
+        }
+        .border{
+            background-color: rgb(1, 72, 1);
+            position: relative;
+            height: 200px;
+            width: 400px;
+            margin: 200px auto;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="border"><img src="https://placehold.co/380x180" alt="example image"></div>
+</body>
+</html>
